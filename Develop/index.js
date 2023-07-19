@@ -79,8 +79,30 @@ function init() {
     inquirer
       .prompt(questions)
       .then(answers => {
+        let licenseBadgeURL = '';
+      switch (answers.license) {
+        case 'MIT':
+          licenseBadgeURL = 'https://img.shields.io/badge/license-MIT-brightgreen';
+          break;
+        case 'Apache 2.0':
+          licenseBadgeURL = 'https://img.shields.io/badge/license-Apache%202.0-blue';
+          break;
+        case 'GPL':
+          licenseBadgeURL = 'https://img.shields.io/badge/license-GPL-blueviolet';
+          break;
+        case 'BSD':
+          licenseBadgeURL = 'https://img.shields.io/badge/license-BSD-blue';
+          break;
+        case 'None':
+          licenseBadgeURL = '';
+          break;
+        default:
+          licenseBadgeURL = '';
+      }
+
         const readmeContent = `# ${answers.title}
-  
+  ![License](${licenseBadgeURL})
+
   ## Description
   ${answers.description}
   

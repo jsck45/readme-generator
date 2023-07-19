@@ -1,7 +1,8 @@
-# readme generator
-  
+# readme
+  ![License](https://img.shields.io/badge/license-MIT-brightgreen)
+
   ## Description
-  generate readme docs using cli
+  readme generator
   
   ## Table of Contents
   - [Installation](#installation)
@@ -29,5 +30,5 @@
   ## Questions
   For additional questions, contact me:
   - GitHub: [https://github.com/carol](https://github.com/carol)
-  - Email: carol@email.com
+  - Email: carol/email
   
