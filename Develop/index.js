@@ -124,15 +124,12 @@ function init() {
   ${answers.description}
   
   ## Table of Contents
-  - [License](#license)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
-
-  ## License
-  This project is covered under the ${renderLicenseLink(answers.license)} license. 
+  - [License](#license)
   
   ## Installation
   ${answers.installation}
@@ -150,6 +147,9 @@ function init() {
   For additional questions, contact me:
   - GitHub: [https://github.com/${answers.github}](https://github.com/${answers.github})
   - Email: ${answers.email}
+
+  ## License
+  This project is covered under the ${renderLicenseLink(answers.license)}. 
   `;
         writeToFile('README.md', readmeContent);
       })
