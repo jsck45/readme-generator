@@ -1,34 +1,43 @@
-# readme
-  ![License](https://img.shields.io/badge/license-MIT-brightgreen)
+# readme generator
 
-  ## Description
-  readme generator
-  
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  
-  ## Installation
-  i
-  
-  ## Usage
-  none
-  
-  ## License
-  This project is covered under the MIT license. [MIT License](https://opensource.org/licenses/MIT)
-  
-  ## Contributing
-  none
-  
-  ## Tests
-  tests
-  
-  ## Questions
-  For additional questions, contact me:
-  - GitHub: [https://github.com/carol](https://github.com/carol)
-  - Email: carol/email
-  
+![License](https://img.shields.io/badge/license-BSD-blue)
+
+## Description
+
+generates readme
+
+## Table of Contents
+
+- [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## License
+
+This project is covered under the [BSD License](https://opensource.org/licenses/BSD-3-Clause) license.
+
+## Installation
+
+npm install "dependency name"
+
+## Usage
+
+n/a
+
+## Contributing
+
+n/a
+
+## Tests
+
+npm test
+
+## Questions
+
+For additional questions, contact me:
+
+- GitHub: [https://github.com/ck](https://github.com/ck)
+- Email: ck/email

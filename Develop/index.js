@@ -124,21 +124,21 @@ function init() {
   ${answers.description}
   
   ## Table of Contents
+  - [License](#license)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
+
+  ## License
+  This project is covered under the ${renderLicenseLink(answers.license)} license. 
   
   ## Installation
   ${answers.installation}
   
   ## Usage
   ${answers.usage}
-  
-  ## License
-  This project is covered under the ${answers.license} license. ${renderLicenseLink(answers.license)}
   
   ## Contributing
   ${answers.contributing}
