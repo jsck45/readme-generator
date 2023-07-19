@@ -19,7 +19,7 @@
   none
   
   ## License
-  This project is covered under the MIT license.
+  This project is covered under the MIT license. [MIT License](https://opensource.org/licenses/MIT)
   
   ## Contributing
   none

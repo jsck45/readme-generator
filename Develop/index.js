@@ -100,6 +100,23 @@ function init() {
           licenseBadgeURL = '';
       }
 
+      function renderLicenseLink(license) {
+        switch (license) {
+          case 'MIT':
+            return '[MIT License](https://opensource.org/licenses/MIT)';
+          case 'Apache 2.0':
+            return '[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)';
+          case 'GPL':
+            return '[GPL License](https://www.gnu.org/licenses/gpl-3.0.en.html)';
+          case 'BSD':
+            return '[BSD License](https://opensource.org/licenses/BSD-3-Clause)';
+          default:
+            return '';
+        }
+      }
+
+    renderLicenseLink();      
+
         const readmeContent = `# ${answers.title}
   ![License](${licenseBadgeURL})
 
@@ -121,7 +138,7 @@ function init() {
   ${answers.usage}
   
   ## License
-  This project is covered under the ${answers.license} license.
+  This project is covered under the ${answers.license} license. ${renderLicenseLink(answers.license)}
   
   ## Contributing
   ${answers.contributing}
