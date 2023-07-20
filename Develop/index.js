@@ -150,12 +150,16 @@ function init() {
 
   ## License
   This project is covered under the ${renderLicenseLink(answers.license)}. 
+
+  ## Project Demo
+  [Click here to watch the walkthrough video](https://drive.google.com/file/d/1LcZVGVZQ10PkKVgSKhC9lJcNXDFJcptk/view)
   `;
         writeToFile('README.md', readmeContent);
       })
       .catch(err => {
         console.log(err);
       });
+      
   }
   
   // Function call to initialize app

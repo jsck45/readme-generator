@@ -1,8 +1,8 @@
-# README generator
+# ca
   ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
   ## Description
-  This project quickly creates a README.md file through the command line using node.js
+  ca
   
   ## Table of Contents
   - [Installation](#installation)
@@ -13,22 +13,25 @@
   - [License](#license)
   
   ## Installation
-  The command 'npm install' should be used followed by the dependency's name.
+  ca
   
   ## Usage
-  Customise your README.md for your own needs.
+  ca
   
   ## Contributing
-  Please fork the repo and create a pull request.
+  ca
   
   ## Tests
-  No test currently available. Coming soon.
+  ca
   
   ## Questions
   For additional questions, contact me:
-  - GitHub: [https://github.com/jsck45](https://github.com/jsck45)
-  - Email: carol@gmail.com
+  - GitHub: [https://github.com/ca](https://github.com/ca)
+  - Email: ca
 
   ## License
   This project is covered under the [MIT License](https://opensource.org/licenses/MIT). 
+
+  ## Project Demo
+  [Click here to watch the walkthrough video](https://drive.google.com/file/d/1LcZVGVZQ10PkKVgSKhC9lJcNXDFJcptk/view)
   
